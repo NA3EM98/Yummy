@@ -1,2 +1,2 @@
 # yummy
-jQuery Exam
+jQuery and API testing
