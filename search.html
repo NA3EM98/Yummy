@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meal Finder</title>
+  </head>
+  <body>
+   <aside id="aside">
+      <div class="parent">
+        <div class="toggled">
+          <div class="menu">
+            <div class="links">
+              <ul class="list-unstyled">
+                <li class="search" ><a class="text-decoration-none" href="./search.html">Search</a></li>
+                <li class="categories"><a class="text-decoration-none" href="./index.html">Categories</a></li>
+                <li class="area"><a class="text-decoration-none" href="./index.html">Area</a></li>
+                <li class="ingrediants"><a class="text-decoration-none" href="./index.html">Ingrediants</a></li>
+                <li class="contactUs"><a class="text-decoration-none" href="./index.html">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="menu-footer">
+              <div class="social">
+                <a target="_blank" href="https://www.facebook.com"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a target="_blank" href="https://www.twitter.com"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a target="_blank" href="https://www.google.com"
+                  ><i class="fa-solid fa-globe"></i
+                ></a>
+              </div>
+              <p class="">Copyright Â© 2019<br> All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+        <div class="close-icons bg-body-tertiary">
+          <img src="./img/logo.png" alt="logo" />
+          <a class="closeIcon text-dark"
+            ><i class="toggledIcon fa-solid fa-bars fa-2xl"></i
+          ></a>
+          <!-- <i class="openIcon fa-solid fa-x fa-2xl d-none"></i> -->
+          <div class="share">
+            <a target="_blank" href="https://www.google.com"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+            <a><i class="fa-solid fa-share-nodes"></i></a>
+          </div>
+        </div>
+      </div>
+    </aside>
+      <div class="f">
+    <div class="container">
+      <h1>Meal Finder</h1>
+      <div class="flex">
+        <form class="flex m-auto" id="submit">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for meals or keywords"
+          />
+          <button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+                    <input type="text"
+                    class="search-btn"
+            id="search"
+            placeholder="Search for meals or keywords"
+          /><button class="search-btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+
+        </form>
+        <button class="random-btn" id="random">
+          <i class="fas fa-random"></i>
+        </button>
+      </div>
+<div class="overflow-auto">
+      <div id="result-heading"></div>
+      <div id="meals" class="meals"></div>
+      <div id="single-meal"></div></div>
+    </div>
+</div>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/index.js"></script>
+
+
+  </body>
+</html>
